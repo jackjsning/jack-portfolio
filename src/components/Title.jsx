@@ -5,11 +5,12 @@ function Title({ children, id}) {
         <h1
             id={id && id}
             className="text-2xl font-bold underline
-            underline-offset-8 decorate-4 mb-5 text-stone-900"
+            underline-offset-8 decorate-4 mb-5 text-stone-900
+            dark:text-white"
         >
             {children}
         </h1>
     )
 }
 
-export default PortfolioItem;
+export default Title;

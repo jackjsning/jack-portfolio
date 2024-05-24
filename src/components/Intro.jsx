@@ -10,7 +10,7 @@ function Intro() {
             <p className="text-base md:text-x1 
             mb-3 font-medium">Software Engineer</p>
             <p className="text-sm max-w-xl mb-6 font-bold">
-                Bio
+            My name is Jack Ning. I live in Fairfax, Virginia. I did my undergraduate at the University of Virginia, dual majoring in computer science and financial economics. Afterwards, I worked at a startup, Built Robotics, for over a year. I'm currently pursuing a Master's in Computer Science at John's Hopkin's University, focusing on AI.
             </p>
         </div>
     )

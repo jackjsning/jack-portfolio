@@ -25,6 +25,6 @@ export default [
         title: "Bachelor's Degree in Computer Science",
         duration: '4 years',
         details: 
-        'I graduate from the University of Virginia learning about computer architecture, computer science theory, an array of programming',
+        'I graduated from the University of Virginia learning about computer architecture, computer science theory, an array of programming',
     },
 ]

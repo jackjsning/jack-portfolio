@@ -29,7 +29,7 @@ function PortfolioItem({ title, imgUrl, stack, link, description, buttons}) {
                         </span>
                     ))}
                 </p>
-                <p className="text-sm max-w-xl" dangerouslySetInnerHTML={{ __html: description }}></p>
+                <p className="text-sm max-w-xl py-2" dangerouslySetInnerHTML={{ __html: description }}></p>
                     <div className="flex flex-wrap gap-2 items-center 
                     justify-center flex-row text-xs md:text-sm text-white dark:text-black">
                         {buttons.map((button, index) => (

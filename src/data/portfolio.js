@@ -3,13 +3,9 @@ export default [
         title: 'Developer Portfolio',
         imgUrl: 'assets/jack-portfolio.png',
         stack: ['React', 'Tailwind', 'Vite', 'GitHub Actions'],
-        description: 'This is my personal website containing my portfolio.',
+        description: "This is my personal website containing my portfolio. You are currently browsing it",
         link: 'https://jackjsning.github.io/jack-portfolio/',
         buttons: [
-            {
-                name: 'Website',
-                link: 'https://jackjsning.github.io/jack-portfolio/'
-            },
             {
                 name: 'GitHub',
                 link: 'https://github.com/jackjsning/jack-portfolio'

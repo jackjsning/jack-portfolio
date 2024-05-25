@@ -1,6 +1,10 @@
 import React from "react";
 
-function PortfolioItem({ title, imgUrl, stack, link}) {
+function PortfolioItem({ title, imgUrl, stack, link, description, buttons}) {
+    const handleClick = (button) => {
+        window.open(button.link, "_blank");
+    };
+
     return (
         <a 
          href={link}
@@ -25,6 +29,16 @@ function PortfolioItem({ title, imgUrl, stack, link}) {
                         </span>
                     ))}
                 </p>
+                <p className="text-sm max-w-xl" dangerouslySetInnerHTML={{ __html: description }}></p>
+                    <div className="flex flex-wrap gap-2 items-center 
+                    justify-center flex-row text-xs md:text-sm text-white dark:text-black">
+                        {buttons.map((button, index) => (
+                            <button key={index} className="px-2 py-1 font-semibold
+                            border-2 border-stone-900 rounded-md dark:border-white bg-black dark:bg-white" onClick={() => handleClick(button)}>
+                                {button.name}
+                            </button>
+                        ))}
+                    </div>
             </div>
         </a>
     )

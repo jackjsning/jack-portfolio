@@ -1,7 +1,7 @@
 export default [
     {
         year: 'Today',
-        title: 'Teacher Assistant',
+        title: 'Graduate Teaching Assistant',
         duration: '4 months',
         details: 
         "As a Teaching Assistant for Foundations of Algorithms (EN.605.621) at Johns Hopkins University, I guided students through course material and assignments, provided timely feedback on assessments, and addressed inquiries via email and office hours. I also collaborated with faculty to develop instructional materials and teaching strategies to help students understand complex topics.",

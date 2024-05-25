@@ -2,13 +2,35 @@ export default [
     {
         title: 'Developer Portfolio',
         imgUrl: 'assets/jack-portfolio.png',
-        stack: ['React', 'CSS', 'Tailwind', 'Vite'],
+        stack: ['React', 'Tailwind', 'Vite', 'GitHub Actions'],
+        description: 'This is my personal website containing my portfolio.',
         link: 'https://jackjsning.github.io/jack-portfolio/',
+        buttons: [
+            {
+                name: 'Website',
+                link: 'https://jackjsning.github.io/jack-portfolio/'
+            },
+            {
+                name: 'GitHub',
+                link: 'https://github.com/jackjsning/jack-portfolio'
+            }
+        ]
     },
     {
         title: 'Detecting Personal Identifying Information',
         imgUrl: 'assets/PII-Detection.png',
         stack: ['Python', 'AI', 'ML', 'NLP'],
+        description: 'This is a Kaggle ML competition I participated in, where we were given the task of identifying personal identifying information, such as names and phone numbers, in student essays. Clicking the image will bring you to the video describing what we did for our submission.',
         link: 'https://www.youtube.com/watch?v=_JZmg8P6Z28',
+        buttons: [
+            {
+                name: 'Kaggle Profile',
+                link: 'https://www.kaggle.com/jackjning/competitions'
+            },
+            {
+                name: 'Kaggle Competition',
+                link: 'https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data'
+            }
+        ]
     },
 ]

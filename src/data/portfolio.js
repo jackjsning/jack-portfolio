@@ -16,7 +16,7 @@ export default [
         title: 'Detecting Personal Identifying Information',
         imgUrl: 'assets/PII-Detection.png',
         stack: ['Python', 'AI', 'ML', 'NLP'],
-        description: 'This is a Kaggle ML competition I participated in, where we were given the task of identifying personal identifying information, such as names and phone numbers, in student essays. Clicking the image will bring you to the video describing what we did for our submission.',
+        description: 'This is a Kaggle ML competition I participated in, where the task was identifying personal identifying information, such as names and phone numbers, in student essays. Clicking the image will bring you to the video where I explain the model and preprocessing techniques.',
         link: 'https://www.youtube.com/watch?v=_JZmg8P6Z28',
         buttons: [
             {

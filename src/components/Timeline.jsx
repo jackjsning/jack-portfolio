@@ -12,6 +12,7 @@ function Timeline() {
                     <TimelineItem
                         year={item.year}
                         title={item.title}
+                        organization={item.organization}
                         duration={item.duration}
                         details={item.details}
                     />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function TimelineItem({ year, title, duration, details }) {
+function TimelineItem({ year, title, organization, duration, details }) {
     return (
         <ol className="flex flex-col md:flex-row relative border-l border-stone-200 dark:border-stone-700">
             <li className="mb-10 ml-4">
@@ -17,6 +17,10 @@ function TimelineItem({ year, title, duration, details }) {
                         {duration}
                     </div>
                 </p>
+                <div className="text-center font-semibold bg-stone-200 rounded-full mt-1.5 border border-white 
+                dark:border-stone-900 dark:bg-stone-700">
+                    {organization}
+                </div>
                 <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
                     {details}
                 </p>

@@ -1,5 +1,22 @@
 export default [
     {
+        title: 'Japanese AI Text Simplification',
+        imgUrl: 'assets/AI_Simplification.png',
+        stack: ['Python', 'AI', 'ML', 'NLP', 'Webscraper'],
+        description: 'I created a webwebscraper and to form a new corpus for document-level Japanese simplification. I then fine-tuned and trained BART model to perform text simplification.',
+        link: 'https://www.youtube.com/watch?v=_JZmg8P6Z28',
+        buttons: [
+            {
+                name: 'Paper',
+                link: 'assets/Research Paper Final.pdf'
+            },
+            {
+                name: 'GitHub',
+                link: ''
+            },
+        ]
+    },
+    {
         title: 'Developer Portfolio',
         imgUrl: 'assets/jack-portfolio.png',
         stack: ['React', 'Tailwind', 'Vite', 'GitHub Actions'],

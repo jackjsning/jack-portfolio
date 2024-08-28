@@ -3,14 +3,14 @@ export default [
         year: 'Today',
         title: 'Graduate Teaching Assistant',
         organization: 'Johns Hopkins University',
-        duration: '4 months',
+        duration: '8 months',
         details: 
-        "As a Teaching Assistant for Foundations of Algorithms (EN.605.621), I guided students through course material and assignments, provided timely feedback on assessments, and addressed inquiries via email and office hours. I also collaborated with faculty to develop instructional materials and teaching strategies to help students understand complex topics.",
+        "As a Teaching Assistant for Foundations of Algorithms (EN.605.621) and Deep Neural Networks (EN.605.742), I guided students through course material and assignments, provided timely feedback on assessments, and addressed inquiries via email and office hours. I also collaborated with faculty to develop instructional materials and teaching strategies to help students understand complex topics.",
     },
     {
         year: 'Today',
         title: 'Graduate Student',
-        duration: '9 months',
+        duration: '12 months',
         organization: 'Johns Hopkins University',
         details: 
         "I'm currently pursuing a Master's Degree in computer science with a focus on artificial intelligence and machine learning",
